@@ -23,7 +23,7 @@ public class Ejercicio {
         System.out.println(dlong);
         System.out.println(ifloat);
         System.out.println(ibyte);
-        System.out.println("hola");
+        System.out.println("perro");
 
 
 
