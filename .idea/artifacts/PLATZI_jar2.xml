@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PLATZI:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/PLATZI_jar2</output-path>
+    <root id="archive" name="PLATZI.jar">
+      <element id="module-output" name="PLATZI" />
+    </root>
+  </artifact>
+</component>
