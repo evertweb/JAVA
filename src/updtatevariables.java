@@ -10,7 +10,7 @@ public class updtatevariables {
         int horasextrastotal = 6 * 20;
 
 
-        //bono 200
+        //bono 201
         //pension 2000
         //hora extras 6 20 c/u
         //cupon 45 comida
