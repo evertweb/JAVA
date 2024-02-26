@@ -3,13 +3,14 @@ public class SentenciaIf {
 
         int envioDeManzanas=1;
 
-        Boolean manzanaverde=false;
+        Boolean manzanaverde=true;
         if (manzanaverde){
 
-            envioDeManzanas +=2;
+              envioDeManzanas++;
 
 
             System.out.println("la manzana es de color verde" + envioDeManzanas);
+
 
 
             }
