@@ -1,4 +1,4 @@
-public class SentenciaIf {
+public class SentenciaIfAndOperador {
     public static void main(String[] args) {
 
 
@@ -18,6 +18,7 @@ public class SentenciaIf {
         }else {
             System.out.println("hola");
         }
+
 
 
 
