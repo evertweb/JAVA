@@ -2,22 +2,25 @@ public class Funciones {
     public static  int resta(int a, int b){
         return a-b;
     }
-    public static int suma(int a, int b){
-        return a+b;
+    public static double ConvertirCoin(double cantitad, String moneda){
+        switch (moneda){
+            case "COP":
+                cantitad *= 4300;
+                break;
+            case "mex":
+                cantitad *=0.5656;
+                break;
+
+
+        }
+        return cantitad;
     }
-    static int c=suma(3,5) - resta(1,3);
+
+
 
     public static void main(String[] args) {
-        if (c>10){
-            System.out.println("c es mayor que 10");
 
-        }else if(c>1){
-            System.out.println("c es ayor que 1");
-        }
-
-        else System.out.println("c es menor que 10");
-
-        System.out.println(c);
+        System.out.println(ConvertirCoin(23, "COP"));
 
 
     }

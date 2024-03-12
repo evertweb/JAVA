@@ -14,6 +14,8 @@ public class Swith {
                 break;
             case "blue":
                 System.out.println("hola");
+            default:
+                System.out.println("selecciona ");
         }
 
 

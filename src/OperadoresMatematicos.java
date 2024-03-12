@@ -39,8 +39,8 @@ public class OperadoresMatematicos {
         //Devuelve el coseno trigonometrico de un angulo
         System.out.println(Math.cos(j));
 
-        //Devuelve el numero elevado a la potencia de un valor double
-        System.out.println(Math.exp(i));
+
+
 
 
     }
