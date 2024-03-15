@@ -1,7 +1,17 @@
+
 public class Funciones {
+    /**
+     * ESTA FUNCION RESTA DOS NUMEROS DE TIPO INT
+     * */
+
     public static  int resta(int a, int b){
         return a-b;
     }
+    /**
+     * ESTA FUNCION HACE UNA CONVERSION DE MONEDAS
+     * NECESITA DOS DATOS LA CANTIDAD Y UNA MONEDA Y ESTA DEVULVE UN RESULTADO DE ACUERDO A LA MONEDA ESCOGIDA
+     * PARA ESO SE UTILIZA UNA SENTENCIA DE CONTROL TIPO SWITCH
+     * Y LA CANTIDAD*/
     public static double ConvertirCoin(double cantitad, String moneda){
         switch (moneda){
             case "COP":
