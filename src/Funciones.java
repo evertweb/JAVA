@@ -7,11 +7,23 @@ public class Funciones {
     public static  int resta(int a, int b){
         return a-b;
     }
+
+
     /**
+     *
+     *
      * ESTA FUNCION HACE UNA CONVERSION DE MONEDAS
      * NECESITA DOS DATOS LA CANTIDAD Y UNA MONEDA Y ESTA DEVULVE UN RESULTADO DE ACUERDO A LA MONEDA ESCOGIDA
      * PARA ESO SE UTILIZA UNA SENTENCIA DE CONTROL TIPO SWITCH
-     * Y LA CANTIDAD*/
+     * Y LA CANTIDAD
+     *@author evert
+     *
+     * @param cantitad a convertir
+     * @param moneda  tipo de moneda si es mxn o cop*
+     * @return retorna la conversion de acuerdo a la moneda escogida
+     *
+     */
+
     public static double ConvertirCoin(double cantitad, String moneda){
         switch (moneda){
             case "COP":
