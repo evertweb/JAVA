@@ -1,7 +1,11 @@
 import java.util.Scanner;
 
 public class BulceFor {
+
+
     public static void main(String[] args) {
+        System.out.println("ingresa un numero");
+
         //el metodo main solo acepta metodos static
 
         int response;
@@ -11,14 +15,18 @@ public class BulceFor {
          response=Integer.valueOf(scevert.nextLine());
 
 
+
         for ( response=1; response <= 10; response++){
             hola();
 
 
         }
     }
+
     public static void hola(){
+
         System.out.println("hola mi perro");
 
     }
+
 }

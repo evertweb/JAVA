@@ -1,5 +1,5 @@
 
-public class Funciones {
+public class FuncionesAndDocs {
     /**
      * ESTA FUNCION RESTA DOS NUMEROS DE TIPO INT
      * */
