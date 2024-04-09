@@ -13,6 +13,7 @@ public class Pratica {
         for (int i=1; i<10; i++){
             System.out.println(numerodeentrda);
         }
+        System.out.println(suma(2,4));
 
 
 
@@ -20,6 +21,9 @@ public class Pratica {
 
 
 
+    }
+    public static int suma(int a, int b){
+        return a+b;
     }
 
 }
